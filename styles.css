@@ -3,7 +3,11 @@
   margin: auto;
   text-align: center;
 }
-
+.heading{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
 .dice {
   text-align: center;
   display: inline-block;
@@ -12,11 +16,11 @@
 
 .stylebtn{
   margin: auto;
-  width: 60px;
+  width: 70px;
   text-align: center;
-  height: 30px;
+  height: 50px;
   font-size: 30px;
-  padding: 20px 10px;
+  padding: 5px 10px;
   color: red;
   background-color: blue;
   border-radius: 7px;
@@ -42,12 +46,12 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 70%;
 }
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color:  #EEEEEE ;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
