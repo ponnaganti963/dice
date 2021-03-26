@@ -27,6 +27,13 @@
   cursor: default;
 }
 
+.btn1{
+  widht: 30px;
+  height: 30px;
+  background-color: #000;
+}
+
+
 body {
   background-color: #393E46;
 }
