@@ -1,0 +1,97 @@
+.container1 {
+
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  padding-top: 10px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.flex{
+  display: flex;
+  flex-flow:column;
+
+}
+
+.stylebtn{
+  margin: 10px auto;
+  width: 70px;
+  text-align: center;
+  height: 50px;
+  font-size: 30px;
+  padding: 5px 10px;
+  color: red;
+  background-color: blue;
+  border-radius: 7px;
+  cursor: default;
+}
+
+.btn1{
+  margin: auto;
+  width: 80px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  height: 40px;
+  color: red;
+  border-radius: 7px;
+  cursor: default;
+  font-weight: 700;
+
+}
+
+body {
+  background-color: #666;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 8px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 70%;
+}
+
+footer {
+  margin-top: 5%;
+  color:  #EEEEEE ;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.container-md{
+  display: none;
+}
+
+.selectingLevel{
+  align-content: center;
+  margin: auto;
+  height: 200px;
+  width: 100px;
+  padding: 20px;
+}
+
+.mybd{
+  display: none;
+}
+
+.startbtn{
+  margin-top: 50px;
+  width: 100px;
+
+}
