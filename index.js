@@ -62,16 +62,17 @@ document.querySelector('.startbtn').addEventListener('click',function(){
       document.querySelector('.container-md').style.display = "inline";
       document.querySelector('.dices').style.opacity = 0.3;
       document.querySelector('.stylebtn').disabled = true;
+      var p = document.querySelectorAll('h1');
       if(yourscore > aiscore ){
 
-      document.querySelector("h1").innerHTML = "🚩YOU Wins!";
+      p[2].innerHTML = "🚩YOU Wins!";
       var audio = new Audio('Positive-game-notification.mp3');
       audio.play();
 
 
     }else if (yourscore < aiscore ) {
 
-      document.querySelector("h1").innerHTML = "AI Wins! 🚩";
+    p[2].innerHTML = "AI Wins! 🚩";
       var audio = new Audio('losing-synth-melody-sound-effect.mp3');
       audio.play();
 
@@ -79,7 +80,7 @@ document.querySelector('.startbtn').addEventListener('click',function(){
 
     } else {
 
-      document.querySelector("h1").innerHTML = "Draw!";
+      p[2].innerHTML = "Draw!";
     }
 
     document.querySelector('.container-md').style.display = "inline";
