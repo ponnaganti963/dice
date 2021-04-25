@@ -14,12 +14,18 @@
   <body>
 
    <div class="selectingLevel">
-     <select class="" name="" >
-       <option value="easy">easy</option>
-       <option value="hard">hard</option>
-       <option value="difficult">difficult</option>
-     </select>
-     <button type="button" class="startbtn">Start Game</button>
+     <div class="title">
+      <h1>Dice</h1>
+      <h1>Challenge</h1>
+     </div>
+     <div class="leveling">
+       <select  style="display: block">
+         <option value="easy">easy</option>
+         <option value="hard">hard</option>
+         <option value="difficult">difficult</option>
+       </select>
+       <button type="button" class="btn btn-primary startbtn">Start Game</button>
+     </div>
    </div>
 
     <div class="mybd">
@@ -45,7 +51,7 @@
 
 
     <div class="flex">
-      
+
       <button type="button" class="btn btn-primary stylebtn" id="click">Roll</button>
       <button type="button" class="btn btn-primary btn1"  onclick="clearing()">Reset</button>
 
